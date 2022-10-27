@@ -1,41 +1,46 @@
-# Website
+# Fancoders.com
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+<center><strong>EMPOWERING FANDOM TO BUILD <em>AWESOME</em> THINGS (WITH CODE)</strong></center>
 
-### Installation
+This repo is for the Fandom Coders group website, wiki, and blog. Fandom Coders
+is a community where tech professionals and coding hobbyists alike can share and
+discuss their coding projects, find help getting started or unblocked, and learn
+new skills and concepts. Among others goals, Fandom Coders aims to increase
+coding literacy in fandom and to connect fandom builders with each other to
+create and shape the fandom internet they want to see.
 
-```
-$ yarn
-```
+## Framework
 
-### Local Development
+This website is built using [Docusaurus 2](https://docusaurus.io/), an open
+source modern static website generator.
 
-```
-$ yarn start
-```
+## Prerequisites for Local Development
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+Please be sure you have the below items installed before you begin working.
 
-### Build
+- [Node.js](https://nodejs.org/en/download/)
+- [yarn](https://yarnpkg.com)
 
-```
-$ yarn build
-```
+## Local Development
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+1. Clone or fork the repo.
+2. Open a terminal shell and navigate to the directory where the repo was cloned
+   locally.
+3. Run
 
-### Deployment
+   ```
+   $ yarn start
+   ```
 
-Using SSH:
+   to start a local development server and open up a browser window. Most
+   changes are reflected live without having to restart the server.
+4. Use your code editor to edit the relevant pages.
 
-```
-$ USE_SSH=true yarn deploy
-```
+> Note: Any changes you plan on pushing to the repo should be done on a branch
+> other than main, as we require pull request reviews before your changes can be
+> mered. Be sure to create a new local branch before making changes to files!
 
-Not using SSH:
+<!-- TODO: Add CONTRIUTING.md contributing guide & make this link live
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+**For detailed information on contributing, see our
+[Contribution Guidelines](CONTRIBUTING.md)** -->
